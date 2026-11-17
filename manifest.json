@@ -1,0 +1,59 @@
+{
+  "name": "QuiliAgro Connect",
+  "short_name": "QuiliAgro",
+  "id": "/quiliagro_connect/",
+  "description": "Plataforma para conectar productores y compradores agropecuarios",
+  "start_url": "/quiliagro_connect/vistas/auth/login.php",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#28a745",
+  "orientation": "portrait-primary",
+  "scope": "/quiliagro_connect/",
+  "lang": "es-CO",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "categories": ["business", "productivity"],
+  "icons": [
+    {
+      "src": "/quiliagro_connect/imagenes/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/quiliagro_connect/imagenes/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/quiliagro_connect/imagenes/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/quiliagro_connect/imagenes/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+  ,
+"screenshots": [
+  {
+    "src": "/quiliagro_connect/imagenes/screenshot-mobile.png",
+    "sizes": "390x844",
+    "type": "image/png",
+    "form_factor": "narrow",
+    "label": "Inicio de sesión QuiliAgro Connect"
+  },
+  {
+    "src": "/quiliagro_connect/imagenes/screenshot-desktop.png",
+    "sizes": "1280x800",
+    "type": "image/png",
+    "form_factor": "wide",
+    "label": "Panel QuiliAgro Connect"
+  }
+]
+}
