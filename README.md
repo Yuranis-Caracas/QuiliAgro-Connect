@@ -1,10 +1,12 @@
 # QuiliAgro Connect
-Aplicación web progresiva para la comercialización de productos agropecuarios desarrollada como proyecto de grado. 
+Prototipo de aplicación web progresiva (PWA) para la comercialización de productos agropecuarios, desarrollado como proyecto de grado.
 
 ## Descripción
 QuiliAgro Connect es una aplicación web progresiva (PWA) que conecta productores 
 y compradores del sector agropecuario del municipio de Santander de Quilichao, Cauca, 
-permitiendo la gestión de productos, pedidos y pagos de forma segura y sin intermediarios.
+permitiendo la gestión de productos, pedidos y pagos sin intermediarios.
+
+> **Nota:** es un prototipo académico. Los métodos de pago son **simulados**: no se procesan transacciones reales ni se manejan datos bancarios.
 
 ## Tecnologías utilizadas
 - PHP 8.4
@@ -21,13 +23,17 @@ permitiendo la gestión de productos, pedidos y pagos de forma segura y sin inte
 - **Comprador:** catálogo, carrito y pasarela de pagos
 
 
-## Métodos de pago soportados
+## Métodos de pago (simulado)
 - Tarjeta de crédito / débito
 - PSE
 - Billetera digital (Nequi, Daviplata)
 - Transferencia bancaria
 - Efectivo (Efecty / Sured)
 
+## Aspectos técnicos
+- Base de datos relacional con llaves foráneas, vistas y triggers (estado automático de stock, confirmación de pedidos al pagar una orden, recálculo de totales)
+- Consultas con sentencias preparadas (PDO / mysqli)
+- Control de acceso por roles y registro de auditoría
 
 ## Autora
 Darly Yuranis Caracas Viveros — Ingeniería de Sistemas — Unicomfacauca — 2026
